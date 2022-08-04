@@ -241,14 +241,14 @@
 // console.log(rotateArray(nums, k)); // output: [3, 4, 5, 1, 2]
 
 // IIFE 
-// let nums = [1, 2, 3, 4, 5];
-// let k = 3;
-// (function(nums,k){
-//     for(let i=0; i<k; i++){
-//                 nums.unshift(nums.pop());
-//             }
-//             console.log(nums);
-// })(nums, k);   // output => [ 3, 4, 5, 1, 2 ]
+let nums = [1, 2, 3, 4, 5];
+let k = 3;
+(function(nums,k){
+    for(let i=0; i<k; i++){
+                nums.unshift(nums.pop());
+            }
+            console.log(nums);
+})(nums, k);   // output => [ 3, 4, 5, 1, 2 ]
 
 
  
